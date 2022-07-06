@@ -1,4 +1,5 @@
 mysql> describe pdata;
+
 +----------+--------------+------+-----+---------+----------------+
 | Field    | Type         | Null | Key | Default | Extra          |
 +----------+--------------+------+-----+---------+----------------+
@@ -14,10 +15,11 @@ mysql> describe pdata;
 | address  | varchar(100) | YES  |     | NULL    |                |
 | ill      | varchar(100) | YES  |     | NULL    |                |
 +----------+--------------+------+-----+---------+----------------+
-11 rows in set (0.05 sec)
 
+11 rows in set (0.05 seconds)
 
 mysql>  describe ddata;
+
 +----------+--------------+------+-----+---------+----------------+
 | Field    | Type         | Null | Key | Default | Extra          |
 +----------+--------------+------+-----+---------+----------------+
@@ -34,7 +36,8 @@ mysql>  describe ddata;
 | postgrad | varchar(2)   | NO   |     | NULL    |                |
 | patients | int(3)       | YES  |     | NULL    |                |
 +----------+--------------+------+-----+---------+----------------+
-12 rows in set (0.00 sec)
+
+12 rows in set (0.00 seconds)
 
 mysql> describe logs;
 +-------+--------+------+-----+---------+-------+
@@ -43,7 +46,8 @@ mysql> describe logs;
 | docId | int(3) | YES  | MUL | NULL    |       |
 | patId | int(3) | NO   | PRI | NULL    |       |
 +-------+--------+------+-----+---------+-------+
-2 rows in set (0.00 sec)
+
+2 rows in set (0.00 seconds)
 
 
 
