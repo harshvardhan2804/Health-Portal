@@ -1,3 +1,5 @@
+
+// npm packages are installed 
 const express=require('express');
 const app=express();
 const mysql=require('mysql');
@@ -38,6 +40,8 @@ app.post('/dregister',function(req,res){
 
     });
 });
+
+// To get data from user
 
 app.post('/dlogin',function(req,res){
     var x=true; var pat;
@@ -82,6 +86,8 @@ app.post('/dlogin',function(req,res){
     });
 
 });
+
+// To direct to respective doctor's info page 
 
 app.get('/dlogout',function(req,res){
     res.redirect('/doctors');
