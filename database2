@@ -1,4 +1,5 @@
-//INITIAL DATA
+//INITIAL DATA 
+
 
 mysql> select * from ddata;
 
